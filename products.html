@@ -9,49 +9,45 @@
 </head>
 <body>
 	<div class="sidebar aligner">
-		<div class="logo">
+		<a href="index.html" class="logo">
 			<picture>
 				<!-- <source type="image/svg+xml" srcset="img/LOGO3.svg"> -->
 				<img src="img/LOGO.png" alt="logo">
 			</picture>
-		</div>
+		</a>
 		<!-- /.logo -->
 
 		<div class="items">
-			<div class="item item-1">
-				<picture>
-					<source type="image/svg+xml" srcset="img/Home.svg">
-					<img src="img/Home.png" alt="home">
-				</picture>
-			</div>
-			<div class="item item-2">
-				<picture>
-					<source type="image/svg+xml" srcset="img/Basket.svg">
-					<img src="img/Basket.png" alt="basket">
-				</picture>
-			</div>
-			<div class="item item-3">
-				<picture>
-					<source type="image/svg+xml" srcset="img/Srch.svg">
-					<img src="img/Search.png" alt="search">
-				</picture>
-			</div>
+			<a href="index.html" class="item">
+				<svg xmlns="http://www.w3.org/2000/svg" width="" height="" viewBox="0 0 26 32">
+				<path fill="#d8d8d8" d="M23 13.743V29h-5v-7a2 2 0 0 0-2-2h-6a2 2 0 0 0-2 2v7H3V13.743l10-10zM13.884.383a1.25 1.25 0 0 0-1.768 0L.586 11.914A2.001 2.001 0 0 0 0 13.329V30a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2v-7h4v7a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2V13.328c0-.53-.211-1.039-.586-1.414z"/>
+				</svg>
+			</a>
+			<a href="#" class="item">
+				<svg xmlns="http://www.w3.org/2000/svg" width="" height="" viewBox="0 0 36 32">
+				<path fill="#d8d8d8" d="M36 12v2c0 1.42-.99 2.604-2.317 2.915L29.88 29.848A3.003 3.003 0 0 1 27 32H9a3.002 3.002 0 0 1-2.879-2.152L2.317 16.915A2.996 2.996 0 0 1 0 14v-2a3 3 0 0 1 3-3h5.095c.037-.102.075-.203.132-.294l5-8a1.5 1.5 0 0 1 2.547 1.588L11.582 9h12.836l-4.191-6.706A1.5 1.5 0 0 1 22.774.706l5 8c.056.09.094.192.131.294H33a3 3 0 0 1 3 3zM3 14h30v-2H3zm27.53 3H5.47L9 29.002 27 29z"/>
+				</svg>
+			</a>
+			<a href="#search-block" class="item">
+				<svg xmlns="http://www.w3.org/2000/svg" width="" height="" viewBox="0 0 32 32">
+				<path fill="#d8d8d8" d="M32 12c0 6.627-5.373 12-12 12-2.773 0-5.319-.95-7.35-2.53L2.56 31.56a1.495 1.495 0 0 1-2.12 0 1.495 1.495 0 0 1 0-2.12l10.09-10.09A11.926 11.926 0 0 1 8 12C8 5.373 13.373 0 20 0s12 5.373 12 12zm-3 0c0-4.963-4.037-9-9-9s-9 4.037-9 9 4.037 9 9 9 9-4.037 9-9z"/>
+				</svg>
+			</a>
 		</div>
 		<!-- /.items -->
 
 		<div class="in">
-			<a href="">
-				<picture>
-					<source type="image/svg+xml" srcset="img/download.svg">
-					<img src="img/download.png" alt="download">
-				</picture>
+			<a href="#">
+				<svg xmlns="http://www.w3.org/2000/svg" width="" height="" viewBox="0 0 27 32">
+				<path fill="#d8d8d8" d="M25 32H2c-1.103 0-2-.898-2-2V9c0-1.103.897-2 2-2h5.5a1.5 1.5 0 0 1 0 3H3v19h21V10h-4.5a1.5 1.5 0 0 1 0-3H25c1.103 0 2 .897 2 2v21c0 1.102-.897 2-2 2zm-5-15.5c0 .414-.168.789-.44 1.06l-5 5a1.495 1.495 0 0 1-2.121 0l-5-5a1.5 1.5 0 0 1 2.12-2.12l2.441 2.439V1.499a1.5 1.5 0 0 1 3 0v16.38l2.44-2.44A1.5 1.5 0 0 1 20 16.5z"/>
+				</svg>
 			</a>
 		</div>
 		<!-- /.in -->
 	</div>
 	<!-- /.sidebar -->
 
-	<!-- <div class="categories">
+	<div class="categories">
 		<div class="container centro">
 			<div class="categories-header upper">
 				<h2>Products</h2>
@@ -60,7 +56,7 @@
 					<img src="img/livingRoom.png" alt="">
 				</span>				
 			</div>
-			categories-header
+			<!-- categories-header -->
 	
 			<div class="products-cards">
 				<a href="#" class="card">
@@ -91,21 +87,21 @@
 						<span class="card-price">$300</span>
 					</span>
 				</a>
-				<a href="#" class="card">
+				<a href="card.html" class="card">
 					<img src="img/chair.png" alt="chair">
 					<h3 class="upper">dark seat</h3>
 					<p>Lorem ipsum dolor sit amet.</p>
 					<span class="card-price">$50</span>
 				</a>
 			</div>
-			products-cards
+			<!-- products-cards -->
 			
 			<div class="show-link upper">
 				<a href="#">show more products</a>
 			</div>
 		</div>
-		/.container
-	</div> -->
+		<!-- .container -->
+	</div>
 
 	
 	<div id="main-menu" class="menu">
@@ -115,7 +111,7 @@
 	</a>
 	<!-- /.hamburger -->
 		<ul class="navigation">
-			<li><a href="#">living room
+			<li><a href="products.html">living room
 				<img src="img/livingRoom.png" alt="">
 			</a></li>
 			<li><a href="#">office
@@ -143,6 +139,28 @@
 		<span></span>
 	</a>
 	<!-- /.hamburger -->
+
+	<div id="search-block" class="search-block">
+		<form action="#">
+			<input type="text" class="input-search upper" value="red seat">
+			<a class="search-close" href="#close">&times</a>
+			<p class="help-text">Type product that you are looking for</p>
+		</form>
+		<div class="search-result upper">
+			<div class="result-product">
+				<img src="img/redSeat.png" alt="redSeat">
+				<span>red seat</span>
+			</div>
+			<div class="result-product">
+				<img src="img/blueSeat.png" alt="blueSeat">
+				<span>blue seat</span>
+			</div>
+			<!-- /.result-product -->
+		</div>
+		<!-- /.search-result -->
+	</div>
+	<!-- .search-block -->
+
 	<script src="js/jquery-1.12.4.min.js"></script>
 	<!-- <script
 	  src="https://code.jquery.com/jquery-1.12.4.min.js"
